@@ -1,4 +1,13 @@
-.logo{
+.logo {
     position: absolute;
     z-index: 1000;
-  }
+}
+
+body,
+html,
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* No change here */
+}
